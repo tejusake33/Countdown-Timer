@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url("snow.jpg");
+    font-family: "Quiksand" , sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    align-items: center;
+    margin: 0;
+}
+h1{
+    font-size: 5rem;
+}
+.countdown-span{
+    text-align: center;
+    font-size: 1.5rem;
+}
+.big-text{
+    font-size: 5rem;
+    line-height: 1;
+    margin: 0 2rem;
+}
+.countdown-container{
+    display: flex;
+}
